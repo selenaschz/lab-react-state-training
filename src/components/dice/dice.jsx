@@ -20,7 +20,7 @@ function Dice() {
     }
     return (
         <div className="d-flex justify-content-center">
-            <img className = "img-fluid w-25" src = {img} onClick={handleClick}></img>
+            <img className = "img-fluid w-25" src = {img} alt = "dice" onClick={handleClick}></img>
         </div>
     );
 }

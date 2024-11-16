@@ -13,7 +13,7 @@ function Counter({ className="", min=0 }) {
 
 
     return(
-        <div className={`d-flex align-items-center gap-3 border border-primary-subtle px-4 py-2 ${className}`}>
+        <div className={`d-flex align-items-center justify-content-center gap-3 border border-primary-subtle px-4 py-2 ${className}`}>
             <button className={`btn btn-primary btn-sm rounded-0`} onClick={handleCountDown}> - </button>
             <p className="m-0 fs-2 text-center">{count}</p>
             <button className={`btn btn-primary btn-sm rounded-0`} onClick={handleCountUp}> + </button>     
